@@ -52,6 +52,8 @@ fun main() {
         val estudiante1 = Estudiante("Juan", 12.0)
         val estudiante2 = Estudiante("Luisa", 22.1)
         val estudiante3 = Estudiante("Ana", 12.4)
+    }catch (e: IllegalArgumentException){
+        println(e.message)
     }
 
 
