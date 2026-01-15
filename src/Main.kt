@@ -48,14 +48,41 @@ fun main() {
     println()
 
     //Estudiante
+    val datosEstudiantes = listOf(
+        "Alberto" to 10.0,
+        "Juan" to 12.0,
+        "Ana" to 22.1,
+        "Julio" to 6.9
+    )
+    for ((nombre, nota) in datosEstudiantes) {
+        try {
+            val estudiante = Estudiante(nombre, nota)
+            println(estudiante)
+        }catch (e: IllegalArgumentException){
+            println(e.message)
+        }
+    }
+
+    println()
+    println("*******************************")
+    println()
+
+    //Producto
+    val manzana = Producto("Manzana", 1.2,22)
+    val pera = Producto("Pera", 1.2, 30)
+    val sandia = Producto("Sandia", 3.5, 40)
     try {
-        val estudiante1 = Estudiante("Juan", 12.0)
-        val estudiante2 = Estudiante("Luisa", 22.1)
-        val estudiante3 = Estudiante("Ana", 12.4)
+        println(manzana.toString())
+        println(pera.toString())
+        println(sandia.toString())
+        manzana.vender(15)
+        pera.reabastecer(5)
+        sandia.vender(41)
+        println(manzana.toString())
+        println(pera.toString())
+        println(sandia.toString())
     }catch (e: IllegalArgumentException){
         println(e.message)
     }
-
-
 
 }
