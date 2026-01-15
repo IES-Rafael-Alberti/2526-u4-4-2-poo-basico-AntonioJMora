@@ -13,54 +13,47 @@ Apóyate en los siguientes recursos para realizar la práctica:
 
 ## Identificación de la Actividad
 
-- **ID de la Actividad:** [ID de la actividad]
-- **Módulo:** [Nombre del módulo] (`PROG`, `IS`, `EDES`, etc.)
-- **Unidad de Trabajo:** [Número y nombre de la unidad de trabajo]
-- **Fecha de Creación:** [Fecha de creación]
-- **Fecha de Entrega:** [Fecha de entrega]
+- **ID de la Actividad:** 4.1 Ejercicios POO Basico
+- **Módulo:** Prog
+- **Unidad de Trabajo:** Tema 4
+- **Fecha de Creación:** 15/01/26
+- **Fecha de Entrega:** 15/01/26
 - **Alumno(s):**
-  - **Nombre y Apellidos:** [Nombre y Apellidos del alumno o integrantes del grupo]
-  - **Correo electrónico:** [Correo electrónico g.educaand.es]
-  - **Iniciales del Alumno/Grupo:** [Iniciales del alumno o del grupo]
+  - **Nombre y Apellidos:** Antonio Jesús Mora Cabeza
+  - **Correo electrónico:** nmorcab2106@g.educaand.es
+  - **Iniciales del Alumno/Grupo:** AJMC
 
 ## Descripción de la Actividad
 
-[Descripción detallada de la actividad, objetivos, y contexto necesario para comprenderla. Explicar en qué consiste la actividad y qué se espera que el alumno desarrolle o implemente.]
+Practica de ejercicios de Kotlin de programación orientada a objetos
 
 ## Instrucciones de Compilación y Ejecución
 
 1. **Requisitos Previos:**
 
-   - [Lenguaje de programación y versión]
-   - [Entorno de desarrollo o dependencias necesarias]
+   - Kotlin
+   - Intellij Idea
 2. **Pasos para Compilar el Código:**
 
-   ```bash
-   [Comando para compilar el código]
-   ```
+   Lo compila Intellij Idea
+
 3. **Pasos para Ejecutar el Código:**
 
-   ```bash
-   [Comando para ejecutar la aplicación]
-   ```
+   Darle a ejecutar en el ide
+
 4. **Ejecución de Pruebas:**
 
-   ```bash
-   [Comandos para ejecutar pruebas, si las hubiera]
-   ```
+   No hay pruebas
 
 ## Desarrollo de la Actividad
 
 ### Descripción del Desarrollo
 
-[Explicación de cómo se ha abordado el desarrollo de la actividad, incluyendo las decisiones de diseño, estructura del código y enfoque de resolución de problemas. Se recomienda adjuntar diagramas o capturas de pantalla si es necesario.]
+Se han hecho todos los ejercicios pedidos, cada clase en un archivo diferente para poder diferenciarlas y luego añadidas todas al mismo main.
 
 ### Código Fuente
 
-[Aquí se incluirá un enlace directo a los archivos de código fuente en el repositorio, por ejemplo, si se está usando GitHub: `src/main.kt` o algún enlace directo.]
-
-[Si hay varios ejercicios, habrá una documentación, por cada uno de los ejercicios.]
-[Por cada ejercicio, habrá enlaces embebidos de código a las clases principales y programa principal `main` ]
+Para acceder a los ejercicios, están en `src/ejercicios/src`
 
 ### Ejemplos de Ejecución
 
@@ -69,7 +62,7 @@ Apóyate en los siguientes recursos para realizar la práctica:
 
 ### Resultados de Pruebas
 
-[Aquí se detallará cómo se ha verificado la funcionalidad del código, incluyendo resultados de pruebas automatizadas o manuales, en caso de que las haya.]
+Para verificar que funcione, se ha hecho las pruebas con lo que pedía cada ejercicio.
 
 ## Documentación Adicional
 
@@ -78,7 +71,7 @@ Apóyate en los siguientes recursos para realizar la práctica:
 
 ## Conclusiones
 
-[Resumen de las conclusiones alcanzadas al desarrollar la actividad, las lecciones aprendidas, y posibles mejoras que se puedan implementar en futuras entregas.]
+Me han parecido bastante bien los ejercicios, pero han habido cosas que no he sabido hacer y me he ayudado de internet y la ia, pidiendole demostraciones de como se usarian funciones y luego implementandolas en el codigo.
 
 ## Referencias y Fuentes
 
